@@ -1,0 +1,54 @@
+*{
+    background-color:greenyellow;
+}
+/* type Selector */
+h1{
+    background-color: red;
+}
+.div_class{
+    background-color: violet;
+}
+
+/* Class Selector */
+.para_class{
+    background-color: grey;
+}
+.div_class{
+    background-color: violet;
+}
+
+/* id Selector */
+#div1{
+    color: red;
+}
+#div2{
+    color: blue;
+}
+#div3{
+    color: green;
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: blue;
+}
+#p3{
+    color:green;
+}
+#p4{
+    color:violet;
+}
+/* attribute Selector */
+[title~=target]{
+    font-weight: bold;
+    color: hotpink;
+}
+/* pseudo selector */
+div[title~=target]:hover{
+    color: indigo;
+}
+
+p#p1:hover{
+    background-color: indigo;
+}
