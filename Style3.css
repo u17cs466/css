@@ -5,11 +5,10 @@
 h1{
     background-color: red;
 }
-.div_class{
-    background-color: violet;
-}
 
 /* Class Selector */
+
+
 .para_class{
     background-color: grey;
 }
